@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Roboto&family=Rubik:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFACC0;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav {
+    padding: 0 70px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E80000;
+    font-family: Rubik;
+    font-size: 18px;
+}
+.nav-left {
+    display: flex;
+    width: 397px;
+}
+.nav-link {
+    text-emphasis: none;
+    color: #E80000;
+    text-decoration: none;
+    font-family: Rubik;
+    padding: 0 1rem;
+}
+
+.nav-center {
+    width: 397px;
+    font-family: 'Sansita';
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.nav-right {
+    width: 397px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    padding: 316px 70px 0 70px;
+    height: 692px;
+    width: 100%;
+    background-color: #ED008C;
+    justify-content: space-between;
+}
+.footer-title {
+    color: #FEF200;
+    font-family: 'Sansita';
+    font-size: 80px;
+    font-weight: 700;
+    width: 265px;
+}
+.footer-links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 339px;
+    height: 235px;
+}
+.footer-link {
+    color: #FEF200;
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.email-container {
+    width: 643px;
+}
+.email-text {
+    color: #FEF200;
+    font-family: Rubik;
+    font-size: 32px;
+    font-weight: 400;
+}
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+.email-input {
+    border-radius: 10px;
+    background: #FFFFFC;
+    width: 400px;
+    height: 100px;
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+}
+.email-button {
+    color: #ED008C;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 10px;
+    background: #FEF200;
+    width: 218px;
+    height: 100px;
+    border: none;
+}
