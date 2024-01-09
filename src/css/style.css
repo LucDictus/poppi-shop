@@ -48,10 +48,105 @@ nav {
     display: flex;
     justify-content: flex-end;
 }
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 94vh;
+}
+.title { 
+    color: #E80000;
+    font-family: Sansita;
+    font-size: 121px;
+    font-weight: 700;
+    line-height: 127px; /* 104.959% */
+}
+.subtitle {
+    color: #E80000;
+    font-family: Sansita;
+    font-size: 27px;
+    font-weight: 700;
+}
+.shop-button {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 32px;
+    width: 298px;
+    height: 85px;
+    border: none;
+    border-radius: 20px;
+    background: #E80000;
+}
 
+.morning-container {
+    background-color: #ffea01;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 0;
+}
+.morning-title {
+    color: #E80000;
+    font-family: Sansita;
+    font-size: 64px;
+    font-weight: 400;
+}
+#morning-image {
+    margin-bottom: 50px;
+}
+#morning-button {
+    margin-top: 50px;
+    border-radius: 20px;
+    background: #FB4E26;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 50px;
+    width: 400px;
+    height: 125px;
+    border: none;
+}
 
-
-
+.our-story-container {
+    background-color: #ffa8bb;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 0;   
+}
+.our-story-title {
+    color: #E80000;
+    font-family: Sansita;
+    font-size: 121px;
+    font-weight: 700;
+    width: 569px;
+    height: 426px;
+    margin-left: -350px;
+}
+.our-story-text {
+    color: #E80000;
+    font-family: Sansita;
+    font-size: 32px;
+    width: 778px;
+    height: 400px;
+    margin: 50px 0 0 350px;
+}
+.our-story-button { 
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    background: #E80000;
+    border: none;
+}
 
 
 
