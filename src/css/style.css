@@ -148,7 +148,58 @@ nav {
     border: none;
 }
 
-
+.items-container {
+    padding: 25px 95px;
+}
+.items-title {
+    margin: 50px 0 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 321.879px;
+}
+.items-grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 25px;
+    margin-bottom: 100px;
+}
+.shop-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shop-item-image {
+    width: 330px;
+    height: 465px;
+}
+.shop-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shop-item-title {
+    color: #4936A2;
+    text-align: center;
+    font-family: Sansita;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.shop-item-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: #4936A2;
+    border: none;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+}
 
 footer {
     display: flex;
