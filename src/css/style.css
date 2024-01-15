@@ -264,3 +264,15 @@ footer {
     height: 100px;
     border: none;
 }
+
+button:hover {
+    cursor: pointer;
+}
+
+/* media query max-width 1024px */
+@media (max-width: 1024px) {
+    .header-container {
+        flex-direction: column;
+        height: 100vh;
+    }
+}
