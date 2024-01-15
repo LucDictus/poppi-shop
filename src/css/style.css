@@ -48,12 +48,158 @@ nav {
     display: flex;
     justify-content: flex-end;
 }
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 94vh;
+}
+.title { 
+    color: #E80000;
+    font-family: Sansita;
+    font-size: 121px;
+    font-weight: 700;
+    line-height: 127px; /* 104.959% */
+}
+.subtitle {
+    color: #E80000;
+    font-family: Sansita;
+    font-size: 27px;
+    font-weight: 700;
+}
+.shop-button {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 32px;
+    width: 298px;
+    height: 85px;
+    border: none;
+    border-radius: 20px;
+    background: #E80000;
+}
 
+.morning-container {
+    background-color: #ffea01;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 0;
+}
+.morning-title {
+    color: #E80000;
+    font-family: Sansita;
+    font-size: 64px;
+    font-weight: 400;
+}
+#morning-image {
+    margin-bottom: 50px;
+}
+#morning-button {
+    margin-top: 50px;
+    border-radius: 20px;
+    background: #FB4E26;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 50px;
+    width: 400px;
+    height: 125px;
+    border: none;
+}
 
+.our-story-container {
+    background-color: #ffa8bb;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 0;   
+}
+.our-story-title {
+    color: #E80000;
+    font-family: Sansita;
+    font-size: 121px;
+    font-weight: 700;
+    width: 569px;
+    height: 426px;
+    margin-left: -350px;
+}
+.our-story-text {
+    color: #E80000;
+    font-family: Sansita;
+    font-size: 32px;
+    width: 778px;
+    height: 400px;
+    margin: 50px 0 0 350px;
+}
+.our-story-button { 
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    background: #E80000;
+    border: none;
+}
 
-
-
-
+.items-container {
+    padding: 25px 95px;
+}
+.items-title {
+    margin: 50px 0 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 321.879px;
+}
+.items-grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 25px;
+    margin-bottom: 100px;
+}
+.shop-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shop-item-image {
+    width: 232px;
+    height: 394px;
+}
+.shop-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shop-item-title {
+    color: #4936A2;
+    text-align: center;
+    font-family: Sansita;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.shop-item-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: #4936A2;
+    border: none;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+}
 
 footer {
     display: flex;
@@ -118,3 +264,58 @@ footer {
     height: 100px;
     border: none;
 }
+
+button:hover {
+    cursor: pointer;
+}
+
+/* media query max-width 1024px */
+@media (max-width: 1024px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    nav {
+        padding: 0;
+    }
+    .header-container {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .header-left {
+        scale: 0.7;
+    }
+    #header-image {
+        scale: 0.7;
+    }
+    #morning-image {
+        scale: 0.4;
+        margin-bottom: -75px;
+    }
+    #morning-under-image {
+        scale: 0.4;
+    }
+    .our-story-container {
+        scale: 0.5;
+        padding: 0;
+    }
+    .our-story-title {
+        margin: 0;
+    }
+    .our-story-text {
+        margin: 0;
+    }
+    .items-grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+        overflow: hidden;
+        padding: 55px 70px 0 70px;
+    }
+    .email-container {
+        scale: 0.5;
+        width: 0px;
+    }
+ }
